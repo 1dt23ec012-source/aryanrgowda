@@ -1,4 +1,4 @@
-# Hi there, I'm Aryan R Gowda 👋
+# Hi there, I'm Aryan R Gowda 
 
 ## About Me
 
