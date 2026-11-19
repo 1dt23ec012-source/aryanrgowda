@@ -1,155 +1,110 @@
 <div align="center">
-  <h1>Hi there, I'm Aryan R Gowda 👋</h1>
-  <p><strong>Digital VLSI Design | Analog/Mixed-Signal IC | RISC-V Microarchitecture | FPGA Prototyping</strong></p>
-  <p>Electronics & Communication Engineering Undergraduate at <strong>DSATM, Bengaluru</strong> (Class of 2027)</p>
 
-  <p>
-    <a href="mailto:aryanrgowda1817@gmail.com"><img src="https://img.shields.io/badge/Email-aryanrgowda1817%40gmail.com-blue?style=flat&logo=gmail" alt="Email" /></a>
-    <a href="https://www.linkedin.com/in/aryan-r-gowda/"><img src="https://img.shields.io/badge/LinkedIn-Aryan%20R%20Gowda-0A66C2?style=flat&logo=linkedin" alt="LinkedIn" /></a>
-    <a href="https://github.com/1dt23ec012-source/aryanrgowda"><img src="https://img.shields.io/badge/GitHub-Portfolio-181717?style=flat&logo=github" alt="GitHub" /></a>
-    <img src="https://img.shields.io/badge/Location-Bengaluru%2C%20India-orange?style=flat" alt="Location" />
-  </p>
+# Hi there, I'm Aryan R Gowda 👋
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aryan-r-gowda)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/1dt23ec012-source/aryanrgowda)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:1dt23ec012@dsatm.edu.in)
+[![Location](https://img.shields.io/badge/Bengaluru%2C%20India-555555?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com/?q=Bengaluru,India)
+
+### **Digital VLSI & Physical Design | Analog/Mixed-Signal IC | RISC-V Microarchitecture | FPGA Prototyping**
+*Electronics & Communication Engineering Undergraduate at DSATM, Bengaluru (Class of 2027)*
+
+---
+
 </div>
 
+## 👨‍💻 About Me
+
+I am an Electronics and Communication Engineering undergraduate focused on **end-to-end silicon design**—from theoretical microarchitectural modeling and RTL authoring to full-custom analog layout, automated physical synthesis (RTL-to-GDSII), static timing analysis (STA), and physical FPGA bring-up.
+
+* 🏛️ **Digital ASIC & Computer Architecture:** Experienced in custom ISA instruction extensions on 32-bit RISC-V (`RV32I`) integer datapaths, AMBA AXI4/AXI4-Lite interconnects, 64-bit master DMA burst engines, and timing-closed cryptographic co-processors on AMD-Xilinx Artix-7 FPGAs.
+* ⚡ **Analog & Mixed-Signal Silicon Tape-Out:** Designed submicron CMOS circuits in **GlobalFoundries GF180MCU (3.3V)** and **0.18-µm CMOS**, including Slew-Rate-Enhanced (ERFC) OTAs with active Bult–Geelen gain-boosting and on-chip lead-compensated LDO regulators. Verified 100% DRC clean with bit-exact Netgen LVS matches and 3D distributed RC parasitic extraction.
+* 📦 **Digital Physical Design (Open-Source ASIC):** Implemented full RTL-to-GDSII flows using **LibreLane / OpenROAD** targeting **SkyWater SKY130A**, achieving multi-corner PVT sign-off across all 9 corners, antenna repair, and KLayout XOR equivalence.
+* 🏎️ **Automotive Powertrain Leadership:** Powertrain Team Lead for our national Solar EV team, securing **4th Place Nationally** at the Solar Electric Vehicle Championship (SEVC) through hands-on high-voltage power distribution, safety contactor circuits, and custom wiring harness fabrication.
+
 ---
 
-### 👨‍💻 About Me
-
-I am an Electronics and Communication Engineering undergraduate focused on **end-to-end silicon design**—from theoretical microarchitectural specification and RTL authoring to full-custom polygon layout, static timing analysis (STA), and physical FPGA bring-up. 
-
-* 🏛️ **Digital VLSI & Architecture:** Implementing custom instruction extensions on 32-bit RISC-V (RV32I) cores, AMBA AXI4 interconnects, and high-throughput cryptographic co-processors on AMD-Xilinx Artix-7 FPGAs.
-* ⚡ **Analog & Mixed-Signal IC:** Designing submicron CMOS circuits (0.18-µm node), including Slew-Rate-Enhanced Recycling Folded Cascode (ERFC) OTAs with active gain-boosting and on-chip LDO regulators; verified 100% DRC clean with bit-exact LVS match and 3D PEX in Magic/Netgen/Ngspice.
-* 🏎️ **Automotive Powertrain Leadership:** **Powertrain Team Lead** for our national Formula Bharat & Solar EV team, securing **4th Place Overall Nationally** through hands-on high-voltage distribution, safety interlocks (LOTO), and custom wiring harness fabrication.
-
----
-
-### 🛠️ Technical Arsenal
+## 🛠️ Technical Arsenal
 
 <div align="left">
 
-#### **Hardware Description & Architecture**
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-IEEE%201800-00599C?style=flat-square)
-![Verilog HDL](https://img.shields.io/badge/Verilog-IEEE%201364-2B5B84?style=flat-square)
-![RISC-V](https://img.shields.io/badge/RISC--V-RV32I%20Custom%20ISA-black?style=flat-square&logo=riscv)
-![AMBA AXI](https://img.shields.io/badge/Bus%20Protocols-AXI4%20%7C%20AXI4--Lite%20%7C%20DMA-blue?style=flat-square)
-![Cryptography](https://img.shields.io/badge/Hardware%20Crypto-NIST%20FIPS--197%20AES--128-red?style=flat-square)
+### **Digital IC Design, Microarchitecture & Verification**
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Verilog](https://img.shields.io/badge/Verilog%20HDL-00599C?style=flat-square)
+![RISC-V](https://img.shields.io/badge/RISC--V-RV32I-D41217?style=flat-square&logo=riscv&logoColor=white)
+![AMBA AXI4](https://img.shields.io/badge/AMBA-AXI4%20%2F%20AXI4--Lite-orange?style=flat-square)
+![DMA](https://img.shields.io/badge/DMA-64--bit%20Burst%20Engine-blue?style=flat-square)
+![DSP Math](https://img.shields.io/badge/Fixed--Point%20DSP-Q1.15-success?style=flat-square)
+![Cryptography](https://img.shields.io/badge/Cryptography-AES--128%20(FIPS--197)-critical?style=flat-square)
+![Verilator](https://img.shields.io/badge/Verilator-Lint%20%26%20Regression-informational?style=flat-square)
 
-#### **EDA Tools, Layout & Physical Verification**
-![Vivado](https://img.shields.io/badge/Xilinx%20Vivado-2025.2-E23D28?style=flat-square)
-![Magic VLSI](https://img.shields.io/badge/Magic%20VLSI-Full%20Custom%20Layout-purple?style=flat-square)
-![Netgen LVS](https://img.shields.io/badge/Netgen-LVS%20Graph%20Isomorphism-brightgreen?style=flat-square)
-![Ngspice](https://img.shields.io/badge/Ngspice-Direct%20Linear%20Solver-darkgreen?style=flat-square)
+### **Physical Design, Analog IC & Silicon Sign-Off**
+![GlobalFoundries](https://img.shields.io/badge/GlobalFoundries-GF180MCU%20(3.3V)-red?style=flat-square)
+![SkyWater](https://img.shields.io/badge/SkyWater-SKY130A%20(130nm)-blue?style=flat-square)
+![OpenROAD](https://img.shields.io/badge/OpenROAD-TritonRoute%20%2F%20CTS-blueviolet?style=flat-square)
+![Yosys](https://img.shields.io/badge/Yosys-Slang%20AST%20Frontend-brightgreen?style=flat-square)
+![Magic VLSI](https://img.shields.io/badge/Magic%20VLSI-DRC%20%26%20Extraction-blue?style=flat-square)
+![Netgen](https://img.shields.io/badge/Netgen-LVS%20Isomorphism-orange?style=flat-square)
+![Ngspice](https://img.shields.io/badge/Ngspice-SPICE%20Simulation-purple?style=flat-square)
 ![Xschem](https://img.shields.io/badge/Xschem-Schematic%20Capture-lightgrey?style=flat-square)
-![Process Node](https://img.shields.io/badge/CMOS%20Node-0.18µm%20Mixed--Signal%20(1P6M)-orange?style=flat-square)
+![STA](https://img.shields.io/badge/STA-9--Corner%20PVT%20Sign--Off-success?style=flat-square)
 
-#### **Embedded Systems, DSP & Instrumentation**
-![FreeRTOS](https://img.shields.io/badge/OS-FreeRTOS-yellow?style=flat-square)
-![ESP32](https://img.shields.io/badge/Hardware-ESP32%20Dual--Core-red?style=flat-square&logo=espressif)
-![ADC](https://img.shields.io/badge/Precision%20ADC-TI%20ADS1256%20(24--bit%20ΔΣ)-blue?style=flat-square)
-![Protocols](https://img.shields.io/badge/Protocols-SPI%20%7C%20UART%20(3--phase)%20%7C%20I2C-green?style=flat-square)
-![PCB Standards](https://img.shields.io/badge/PCB%20Safety-IPC--2221B%20%7C%20IPC--2152-black?style=flat-square)
+### **FPGA Prototyping, Embedded Systems & Instrumentation**
+![AMD Xilinx](https://img.shields.io/badge/AMD%20Xilinx-Vivado%202025.2-red?style=flat-square&logo=amd&logoColor=white)
+![Artix-7](https://img.shields.io/badge/FPGA-Artix--7%20(XC7A35T)-purple?style=flat-square)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-Real--Time%20OS-brightgreen?style=flat-square)
+![ESP32](https://img.shields.io/badge/ESP32-Dual--Core%20SoC-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![ADC](https://img.shields.io/badge/TI%20ADS1256-24--Bit%20ΔΣ%20ADC-orange?style=flat-square)
+![Protocols](https://img.shields.io/badge/Protocols-SPI%20%7C%20UART%20%7C%20BLE-yellow?style=flat-square)
+![IPC Standards](https://img.shields.io/badge/Standards-IPC--2221B%20%7C%20IPC--2152-blue?style=flat-square)
 
-#### **Software, Languages & Acceleration**
-![C](https://img.shields.io/badge/C-Bare--Metal%20Firmware-A8B9CC?style=flat-square&logo=c)
-![C++](https://img.shields.io/badge/C++-Embedded-00599C?style=flat-square&logo=c%2B%2B)
-![Python](https://img.shields.io/badge/Python-3.10+%20(PySerial%20%7C%20NumPy)-3776AB?style=flat-square&logo=python)
-![MATLAB](https://img.shields.io/badge/MATLAB-DSP%20%7C%20Vision-e1673a?style=flat-square)
-![CUDA](https://img.shields.io/badge/NVIDIA-CUDA%20Acceleration-76B900?style=flat-square&logo=nvidia)
+### **Languages, Scripting & Modeling**
+![C](https://img.shields.io/badge/C-Bare--Metal%20%2F%20Embedded-A8B9CC?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-Embedded-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-PySerial%20%7C%20Layout%20Gen%20%7C%20Verification-3776AB?style=flat-square&logo=python&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-DSP%20%26%20Vision-ED8B00?style=flat-square)
+![Linux](https://img.shields.io/badge/Linux-WSL2%20%2F%20Ubuntu-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 </div>
 
 ---
 
-### 🚀 Flagship Hardware & Silicon Projects
+## 🚀 Flagship Hardware, Silicon & Tape-Out Projects
 
-<table>
-  <thead>
-    <tr>
-      <th>Project</th>
-      <th>Domain</th>
-      <th>Key Technical Highlights</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Task-Aware Object Selection AI Hardware Accelerator</strong><br><em>DVCon India 2026 Contest</em></td>
-      <td>Digital VLSI / Edge AI</td>
-      <td>
-        • AXI4-compliant accelerator for autonomous vision agents with 64-bit Master DMA.<br>
-        • Signed Q1.15 fixed-point DSP48E1 engine + 5-stage tournament reduction tree ($O(\log_2 N)$).<br>
-        • Closed timing at 50 MHz ($+2.475\text{ ns } WNS$) on Artix-7; <strong>17 mW dynamic power</strong>, delivering <strong>28.2× speedup</strong> over CPU.
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Aegis-Analog: 0.18-µm CMOS ERFC OTA & LDO</strong></td>
-      <td>Analog / Mixed-Signal IC</td>
-      <td>
-        • 37-transistor ERFC OTA with active current recycling ($G_{m,eff} \approx 1.18\text{ mA/V}$) and dynamic Non-Linear Feedback (NLF).<br>
-        • Boosted slew rate by <strong>84.7×</strong> ($13.55\text{ V/µs}$) at $9.91\text{ µA}$ static current with dual Bult-Geelen gain boosters ($98.77\text{ dB } A_{OL}$).<br>
-        • Full-custom mask layout in Magic VLSI: <strong>100% DRC Clean</strong>, <strong>unique LVS match</strong> in Netgen, and 3D PEX post-layout stability ($88.50^\circ\text{ PM}$).
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Aegis-V: FPGA-Based Hardware Security Module (HSM)</strong></td>
-      <td>Digital Design / Crypto</td>
-      <td>
-        • Timing-closed NIST FIPS-197 AES-128 co-processor isolating keys in dedicated silicon registers.<br>
-        • Solved $-9.16\text{ ns}$ cascade violation via a pipelined multi-cycle key expander (1 key/cycle across 11 register banks).<br>
-        • Full-duplex UART engine with 3-phase handshaking; <strong>100% bit-for-bit validation</strong> against NIST SP 800-38A vectors.
-      </td>
-    </tr>
-    <tr>
-      <td><strong>RV32I RISC-V Processor with Custom Cryptographic Extension</strong></td>
-      <td>Computer Architecture</td>
-      <td>
-        • 32-bit RV32I integer CPU datapath with custom instruction decoding (<code>AES.ENC</code> / <code>AES.DEC</code>) mapped into custom-0 opcode space.<br>
-        • 3-phase register marshalling FSM routing 128-bit operands across four 32-bit registers.<br>
-        • Synthesized and routed on Artix-7 FPGA: closed timing at 50 MHz with <strong>$+7.397\text{ ns}$ setup slack</strong> ($F_{max} = 79.35\text{ MHz}$).
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Hospital-Grade 6-Lead Biopotential Acquisition Platform</strong></td>
-      <td>Biomedical DSP / Embedded</td>
-      <td>
-        • 24-bit delta-sigma acquisition front-end with <strong>TI ADS1256 ADC</strong> and active Right Leg Drive (RLD) loop ($>100\text{ dB}$ CMRR).<br>
-        • Input noise floor of $27\text{ nV}$ RMS; embedded FreeRTOS pipeline executing IIR bandpass/notch filtering and Pan-Tompkins QRS detection ($98.5\%$ accuracy).
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Solid-State Capacitive Touch AC Switching PCB</strong></td>
-      <td>Mixed-Signal PCB</td>
-      <td>
-        • Double-sided FR4 hardware switching 230V AC / 10A mains loads using CD4017 bistable latch and saturated BJT relay driver.<br>
-        • Full compliance with <strong>IPC-2221B</strong> electrical insulation: $\ge 2.5\text{ mm}$ air clearance and $1.5\text{ mm}$ creepage isolation slots.
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Project | Domain | Target Platform | Key Technical Highlights |
+| :--- | :--- | :--- | :--- |
+| **[Aegis-Analog: ERFC OTA & LDO Regulator](https://github.com/1dt23ec012-source/aryanrgowda)** | Analog / Mixed-Signal IC | **GF180MCU (3.3V)** & 0.18-µm CMOS | • 37-transistor ERFC OTA with active recycling ($G_{m,\text{eff}} = 3.5 g_m$), dynamic NLF slew booster (**13.81 V/µs**, 86× RFC), and dual Bult–Geelen gain boosters (**98.77 dB** $A_{OL}$, 88.93° PM).<br>• Monolithic LDO delivers 1.200 V nominal with sub-0.70 µs settling under full 5 mA load steps.<br>• Programmatically generated layout via Python in Magic: **100% DRC Clean, bit-exact Netgen LVS match** (37/37 devices, 34/34 nets), 3D RC extracted.<br>• Packaged GDSII and collateral for the **VLSID 2027 Tape-Out Contest**. |
+| **[Task-Aware Object Selection AI Accelerator](https://github.com/1dt23ec012-source/aryanrgowda)** | Edge AI / Digital ASIC | **SKY130A** & Artix-7 FPGA | • AXI4 accelerator IP: 3-stage pipelined signed Q1.15 DSP48E1 dot-product engine, 2-bit semantic context reasoning, and 64-bit master DMA burst engine.<br>• Replaced linear scan with an $O(\log_2 N)$ 5-stage tournament reduction tree, cutting datapath delay from 105.4 ns (162 levels) to 4.5 ns (5 levels).<br>• Closed timing at 50 MHz (+2.475 ns WNS, 17 mW dynamic power, 28.2× CPU speedup) with JTAG VIO readback.<br>• Hardened to GDSII in SKY130A ($1.52 \times 1.54\ \text{mm}$ die, 61.8k cells, 0 DRC/LVS/Antenna errors); submitted to **DVCon India 2026** and **VLSID 2027 Tape-Out Contest**. |
+| **[2D Graphics Raster Engine Core](https://github.com/1dt23ec012-source/aryanrgowda)** | Digital ASIC Physical Design | **SkyWater SKY130A** | • Hardened a 2D graphics core (parser, triangle/line units, pixel coalescer, FIFOs) from SystemVerilog to GDSII using LibreLane/OpenROAD.<br>• Right-sized FIFO depths ($512 \rightarrow 128$) to reduce flip-flops from 20.3k to 11.1k and shrink cell area by 34% ($1.657 \rightarrow 1.089\ \text{mm}^2$).<br>• Closed timing across **all 9 PVT corners** at 36 ns (worst setup +2.82 ns, hold +0.04 ns); zero DRC, LVS, and antenna violations on final $1.095\ \text{mm}^2$ cell area.<br>• Validated equivalence via a 15-seed Verilator random regression against a Python reference model. |
+| **[Aegis-V: FPGA Hardware Security Module](https://github.com/1dt23ec012-source/aryanrgowda)** | Hardware Security / FPGA | AMD-Xilinx Artix-7 | • Standalone NIST FIPS-197 AES-128 cryptographic co-processor isolating keys in dedicated silicon registers.<br>• Resolved a −9.16 ns setup violation via a multi-cycle key expansion engine caching 11 round keys (1 key/cycle).<br>• Designed a 3-phase UART handshake with a 100 ms hardware auto-timeout watchdog recovering stalled frames.<br>• Streamed 9,274 blocks (148,384 bytes) via a multithreaded Python suite with zero errors against NIST SP 800-38A; closed timing at 50 MHz (+3.496 ns WNS, 4,327 LUTs). |
+| **[RV32I RISC-V Processor with Custom Crypto Extension](https://github.com/1dt23ec012-source/aryanrgowda)** | Computer Architecture | AMD-Xilinx Artix-7 | • 32-bit RV32I integer CPU core augmented with custom-0 opcode R-type instructions (`AES.ENC` / `AES.DEC`).<br>• Designed a 12-cycle marshalling FSM transferring 128-bit blocks through four 32-bit registers, preserving standard 32-bit instruction encoding.<br>• Implemented on Artix-7: 2,268 LUTs, 474 registers; met timing at 50 MHz (+7.397 ns WNS, derived $F_{\max} = 79.35\ \text{MHz}$, 0.101 W) with 7-segment / EBREAK diagnostics. |
+| **[Hospital-Grade 6-Lead ECG Acquisition Platform](https://github.com/1dt23ec012-source/aryanrgowda)** | Biomedical DSP / Mixed-Signal | TI ADS1256 + ESP32 | • Low-noise biopotential acquisition front-end with 24-bit $\Delta\Sigma$ ADC (27 nV RMS noise floor) and active Right Leg Drive (RLD) feedback loop (>100 dB CMRR).<br>• Derived 6 frontal limb leads (I, II, III, aVR, aVL, aVF) via Einthoven's triangle on ESP32 Core 1; executed cascaded 0.5–40 Hz IIR bandpass and 50 Hz notch filtering on Core 0.<br>• Laboratory validation on human subjects confirmed **82.4 dB SNR**, 52.1 dB mains rejection, and 98.5% Pan-Tompkins QRS detection accuracy. |
+| **[Solid-State Capacitive Touch AC Switching PCB](https://github.com/1dt23ec012-source/aryanrgowda)** | Mixed-Signal PCB / Power | Double-Sided FR4 | • Solid-state 230V AC / 10A mains switching PCB with no microcontroller: RC debouncing + CD4017 toggle latch + BC547 BJT saturated switch ($V_{CE(\text{sat})} = 0.092\ \text{V}$, ODR=3).<br>• Enforced IPC-2221B safety compliance with $\ge 2.5\ \text{mm}$ clearance and a 1.5 mm milled creepage air slot beneath relay contacts.<br>• Measured 11.8 ms latency, zero false triggers over 24 hours, and 32.4°C thermal burn-in stability. |
 
 ---
 
-### 🏆 Honors & Key Achievements
+## 🏆 Honors, Awards & Competitions
 
-* 🏅 **4th Place Overall (National Level)** — *Formula Bharat & Solar Electric Vehicle Championship (SEVC)* (Powertrain Team Lead).
-* 🎯 **Design Contest Contributor** — *DVCon India 2026 Design Contest* (Task-Aware Object Selection AI Hardware Accelerator).
-* 📜 **CMOS Digital VLSI Design** & **RTL to GDSII Design Flow** — *NPTEL*.
-* 📜 **VLSI SoC Overview** & **Digital Design - Hands On** — *Maven Silicon*.
+* 🏅 **4th Place Overall Nationally** — *Solar Electric Vehicle Championship (SEVC)*: Served as Powertrain Team Lead across a 50-member team, directing high-voltage battery-pack interconnects, motor-controller interfaces, and wiring harness fabrication.
+* 🎯 **Dual Tape-Out Contestant** — *VLSID 2027 Tape-Out Contest*: Packaged and submitted physical verification collateral across two tracks: **GlobalFoundries GF180MCU** (Analog ERFC OTA) and **SkyWater SKY130** (Edge-AI Hardware Accelerator).
+* 🎯 **Design Contest Contributor** — *DVCon India 2026 Design Contest*: Team Vulcan 629 — Task-Aware Object Selection AI Hardware Accelerator on Artix-7 FPGA.
+* 📜 **CMOS Digital VLSI Design & RTL to GDSII Design Flow** — NPTEL Certification.
+* 📜 **VLSI SoC Overview & Digital Design - Hands On** — Maven Silicon Certification.
 
 ---
 
-### 🔬 Currently Exploring
-* **Universal Verification Methodology (UVM) & SystemVerilog Assertions (SVA)**
-* **Open-Source Digital ASIC Implementation Flow (OpenROAD / SkyWater 130nm)**
-* **Post-Quantum Cryptography (PQC) Hardware Accelerators (ML-KEM / Dilithium)**
+## 🔬 What I'm Actively Exploring
+
+* 📐 **Analog Layout Automation & AI Agents:** Exploring LLM-driven and procedural layout generation frameworks to accelerate custom analog layout from specification to GDSII.
+* 🧪 **Universal Verification Methodology (UVM) & SVA:** Building constrained-random verification environments and SystemVerilog Assertions for complex bus interfaces.
+* 🔒 **Post-Quantum Cryptography (PQC) Hardware:** Hardware acceleration of NIST FIPS-203 (ML-KEM / Kyber) lattice-based cryptographic algorithms.
 
 ---
 
 <div align="center">
-  <sub>Engineered with precision by <strong>Aryan R Gowda</strong>. Always open to discussing RTL design, analog layout, and silicon architecture!</sub>
+
+*Engineered with precision by **Aryan R Gowda**. Always open to discussing RTL design, analog layout, and silicon architecture!*  
+📍 **Bengaluru, India**
+
 </div>
-
-Bengaluru, India
-
----
-
-Thank you for visiting my profile!
